@@ -6,7 +6,9 @@ import { NextResponse, NextRequest } from "next/server"
 
 export const POST = async (req: NextRequest) => {
   const { email, password }: any = await req.json()
+
   console.log({ email, password })
+
   const salt = bcrypt.genSaltSync()
 
   let user: any
