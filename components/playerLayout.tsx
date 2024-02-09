@@ -3,7 +3,7 @@
 import { Box } from "@chakra-ui/layout"
 import Sidebar from "./sidebar"
 
-const PlayerLayout = ({ children }) => {
+const PlayerLayout = ({ children }: any) => {
   return (
     // main
     <Box width="100vw" height="100vh">
